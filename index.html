@@ -1,0 +1,39 @@
+<!DOCTYPE <html>
+<head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="guess.css">
+</head>
+<body>
+    <header>
+        <h1>How Much?</h1>
+        <h3>A guessing game that seeks to answer an age-old question</h3>
+    </header>
+    <div class='main'>
+        <p id='intro'>
+            We've all heard this tongue-twister but it's time to find out:
+        </p>
+        <p id='question'>
+            How much wood </br>
+            would a woodchuck chuck </br>
+            if a woodchuck </br>
+            could chuck </br>
+            wood?
+        </p>
+        <div>
+          <p id='message'>Enter your guess here:</p>
+          <input type='text' id='userInput'></input>
+          <div id="submit">Submit</div>
+        </div>
+        <p id='clues'>
+          Here are some hints from Chuck himself:
+        </p>
+        <ul>
+            <li>For today's purposes, chuck = move</li>
+            <li>I like to measure wood in pounds. (This is America afterall)</li>
+            <li>I'm extremely industrious</li>
+        </ul>
+    </div> 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js"></script>  
+    <script type="text/javascript" src="guess.js"></script>
+</body>
+</html>

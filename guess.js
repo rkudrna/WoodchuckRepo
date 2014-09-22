@@ -3,12 +3,7 @@ $(function() {
     var answer = 700;
 
     var $message = $('#message'); 
-    //= prompt("How many pounds of wood do you think Chuck can chuck in a day?")
-
-//how to set userGuess to user input value?
-        
-
-
+    //"How many pounds of wood do you think Chuck can chuck in a day?"
 
     $('#submit').click(compareGuess);
    

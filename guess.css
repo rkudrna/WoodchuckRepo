@@ -1,20 +1,57 @@
+body {
+    background-color: #A89C79;
+    font-family: Sans-serif;
+    font-size: 14pt;
+}
 
-    body {
-        background-color: #A89C79;
-        font-family: Sans-serif;
-        font-size: 16pt;
-    }
+header {
+    width: 100%;
+    height: 120px;
+    margin-left: -20px;
+    margin-top: -20px;
+    background-color: #EDE979;
+    text-align: center;
+    font-family: Sans-serif;
+    border-bottom: 15px solid black;
+    padding: 15px;
+}
 
-    header {
-        width: 100%;
-        height: 120px;
-        background-color: #EDE979;
-        text-align: center;
-        font-family: Sans-serif;
-        border-bottom: 15px solid black;
-        padding: 15px;
-    }
+h1 { 
+    font-size: 24pt;
+}
 
-    h1 { 
-        font-size: 24pt;
-    }
+#Submit {
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    padding: 4px;
+    background-color: #EDE979;
+    position: relative;
+        left: 70%;
+
+}
+
+#guessBox {
+    border: solid gray 1px;
+    background-color: #C4C4CC;
+    padding: 5px;
+    position: relative;
+        left: 30%;
+    width: 350px;
+}
+
+#userInput {
+    position: relative;
+        left: 35%;
+    margin-bottom: 5px;
+}
+
+
+#question {
+    font-size: 16pt;
+    font-family: Helvetica;
+    text-align: center;
+
+}
